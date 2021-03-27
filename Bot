@@ -1,0 +1,30 @@
+import time
+# AlexBot 0.8
+print("AlexBot: What is your name?")
+print("")
+name = input("You: ")
+print("")
+print("ChatBot: Hello", name)
+time.sleep(1.5)
+print("")
+print("AlexBot:", name, "What Now?\n_______________________\n1 - Tell Me a joke \n2 - Test\n3 - Quit")
+print("")
+anr = input("Enter Here: ")
+if anr == "1":
+    print("Astronomers got tired of watching the moon go round the earth for 24 hours")
+    time.sleep(3.5)
+    print("So they called it a day")
+    time.sleep(3.5)
+    exit()
+elif anr == "2":
+    print("Dogs")
+    time.sleep(1)
+    exit()
+elif anr == "3":
+    print("Exiting")
+    time.sleep(0.5)
+    exit()
+else:
+    print("ERROR")
+    time.sleep(1.5)
+    exit()
